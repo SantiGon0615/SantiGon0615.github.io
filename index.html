@@ -4,9 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Páginas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .link-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px 0;
+        }
+
+        .link-item img {
+            width: 24px; /* Ajusta el tamaño del icono aquí */
+            height: 24px;
+            margin-right: 10px; /* Espacio entre el icono y el texto del enlace */
+        }
+
+        a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #2980b9;
+        }
+
+        a:visited {
+            color: #8e44ad;
+        }
+    </style>
 </head>
 <body>
-    <h1>Nosotros</h1>
-    <h3><a href="https://www.arduino.cc/en/software/download-thank-you">Booking</a></h3>
+    <div class="container">
+        <h1> Casitas Don Carlos</h1>
+        <div class="link-item">
+            <img src="instagram-icon.png.jpeg" alt="Instagram Icon"> <!-- Cambia la ruta de la imagen según la ubicación de tu icono -->
+            <a href="https://www.instagram.com/casitas.doncarlos?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a>
+        </div>
+        <div class="link-item">
+            <img src="Booking Icon.png" alt="Booking Icon"> <!-- Cambia la ruta de la imagen según la ubicación de tu icono -->
+            <a href="https://www.booking.com/hotel/ar/junto-al-mar-y-centro-de-santa-clara-dos-casas.es-mx.html?aid=332731&label=Share-0aYq3aj%401695575100&sid=97b99b2deffddf14fcf5448336a71fba&checkin=2023-09-24&checkout=2023-09-25&dist=0&from_sn=ios&group_adults=2&group_children=0&keep_landing=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA%2C&sb_price_type=total&type=total&">Booking</a>
+        </div>
+    </div>
 </body>
 </html>
